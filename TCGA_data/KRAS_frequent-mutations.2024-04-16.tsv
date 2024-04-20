@@ -1,0 +1,130 @@
+ssm_id	dna_change	protein_change	type	consequence	num_ssm_affected_cases	num_KRAS_cases	ssm_affected_cases_percentage	num_gdc_ssm_affected_cases	num_gdc_ssm_cases	gdc_ssm_affected_cases_percentage	vep_impact	sift_impact	sift_score	polyphen_impact	polyphen_score
+edd1ae2c-3ca9-52bd-a124-b09ed304fcc2	chr12:g.25245350C>T	KRAS G12D	Substitution	Missense	439	4813	9.12	439	16477	2.66	MODERATE	deleterious	0.0	benign	0.303
+4fb37566-16d1-5697-9732-27c359828bc7	chr12:g.25245350C>A	KRAS G12V	Substitution	Missense	301	4813	6.25	301	16477	1.83	MODERATE	deleterious	0.0	probably_damaging	0.972
+fa539267-db47-5b9d-8956-6863c0239acb	chr12:g.25245347C>T	KRAS G13D	Substitution	Missense	216	4813	4.49	216	16477	1.31	MODERATE	deleterious	0.04	benign	0.44
+a9ed209d-4f9f-51da-9d71-631fc61bca49	chr12:g.25245351C>A	KRAS G12C	Substitution	Missense	160	4813	3.32	160	16477	0.97	MODERATE	deleterious	0.04	probably_damaging	0.991
+0a77b70b-ffd3-5140-8bd0-e9d16c5774c3	chr12:g.25245351C>G	KRAS G12R	Substitution	Missense	90	4813	1.87	90	16477	0.55	MODERATE	deleterious	0.03	possibly_damaging	0.497
+0b48f075-25a9-5edd-977d-83247204658c	chr12:g.25227341T>G	KRAS Q61H	Substitution	Missense	84	4813	1.75	84	16477	0.51	MODERATE	deleterious	0.0	benign	0.121
+b98b6b56-7905-5a6c-b25f-3063d3ed3d69	chr12:g.25245350C>G	KRAS G12A	Substitution	Missense	68	4813	1.41	68	16477	0.41	MODERATE	deleterious	0.02	possibly_damaging	0.723
+76c91101-f84c-515c-b894-2277881823bc	chr12:g.25245351C>T	KRAS G12S	Substitution	Missense	59	4813	1.23	59	16477	0.36	MODERATE	deleterious	0.03	possibly_damaging	0.582
+c10f4f07-be66-54a0-acbc-19f6c37651ab	chr12:g.25225628C>T	KRAS A146T	Substitution	Missense	59	4813	1.23	59	16477	0.36	MODERATE	deleterious	0.03	possibly_damaging	0.844
+8a99e03e-798d-509d-82b2-d402bcbabd08	chr12:g.25225627G>A	KRAS A146V	Substitution	Missense	29	4813	0.60	29	16477	0.18	MODERATE	deleterious	0.02	possibly_damaging	0.884
+3815de6c-c4cb-5e42-bcca-e9e856a5f314	chr12:g.25227342T>A	KRAS Q61L	Substitution	Missense	21	4813	0.44	21	16477	0.13	MODERATE	deleterious	0.0	possibly_damaging	0.631
+bbb4fa42-2054-5ef1-b7d9-61cb4372645d	chr12:g.25245348C>A	KRAS G13C	Substitution	Missense	21	4813	0.44	21	16477	0.13	MODERATE	deleterious	0.02	probably_damaging	0.997
+ff805854-cfe6-52c8-9eac-14e77c7cff79	chr12:g.25227341T>A	KRAS Q61H	Substitution	Missense	21	4813	0.44	21	16477	0.13	MODERATE	deleterious	0.0	benign	0.121
+54fe55a3-32fe-5eff-9b15-bb0d1839804f	chr12:g.25227342T>C	KRAS Q61R	Substitution	Missense	20	4813	0.42	20	16477	0.12	MODERATE	tolerated	0.06	benign	0.122
+b2e86c72-10c0-5d3a-8d62-630f4c209d06	chr12:g.25225713T>A	KRAS K117N	Substitution	Missense	18	4813	0.37	18	16477	0.11	MODERATE	deleterious	0.01	probably_damaging	0.994
+5c917673-37b7-5d0e-9884-899ba4e9ab63	chr12:g.25245328C>G	KRAS L19F	Substitution	Missense	14	4813	0.29	14	16477	0.08	MODERATE	deleterious	0.01	probably_damaging	0.999
+dd572eab-e6cc-572e-8d16-988ddc14bc05	chr12:g.25225709C>G	KRAS D119H	Substitution	Missense	10	4813	0.21	10	16477	0.06	MODERATE	deleterious	0.0	probably_damaging	0.998
+09740e58-5d33-5f45-a674-d2601d26fb69	chr12:g.25227343G>T	KRAS Q61K	Substitution	Missense	9	4813	0.19	9	16477	0.05	MODERATE	deleterious	0.01	benign	0.083
+53140446-786b-560d-80ac-759ea1a10f61	chr12:g.25245321G>T	KRAS Q22K	Substitution	Missense	9	4813	0.19	9	16477	0.05	MODERATE	deleterious	0.01	probably_damaging	0.982
+e8866c6b-24bd-5379-9b7f-0a72d4ade3dc	chr12:g.25225713T>G	KRAS K117N	Substitution	Missense	9	4813	0.19	9	16477	0.05	MODERATE	deleterious	0.01	probably_damaging	0.994
+e29faae4-da04-5c10-a59f-6f3796818bf2	chr12:g.25245345C>T	KRAS V14I	Substitution	Missense	8	4813	0.17	8	16477	0.05	MODERATE	deleterious	0.0	probably_damaging	0.959
+3ba15187-cfc0-50a1-96a0-76aed19419ae	chr12:g.25209894G>C	KRAS	Substitution	3 Prime Utr	7	4813	0.15	7	16477	0.04	MODIFIER				
+ef9e7046-98ad-58b6-8d4d-2b1be42dd6f5	chr12:g.25227344A>T	KRAS G60=	Substitution	Synonymous	7	4813	0.15	7	16477	0.04	LOW				
+29bfce19-82c6-5f55-a0a3-67ce66c951ca	chr12:g.25225709C>T	KRAS D119N	Substitution	Missense	6	4813	0.12	6	16477	0.04	MODERATE	deleterious	0.0	probably_damaging	0.995
+36b0fd21-fdcb-5291-93bb-c73b01811127	chr12:g.25245332G>T	KRAS A18D	Substitution	Missense	6	4813	0.12	6	16477	0.04	MODERATE	deleterious	0.0	probably_damaging	0.995
+5fc1bfc6-fa94-533f-a2c3-9361372586af	chr12:g.25227334A>C	KRAS Y64D	Substitution	Missense	6	4813	0.12	6	16477	0.04	MODERATE	deleterious	0.0	probably_damaging	0.991
+8d3d78a0-0a1f-5d09-a37e-469410bc2b1c	chr12:g.25227349C>T	KRAS A59T	Substitution	Missense	6	4813	0.12	6	16477	0.04	MODERATE	tolerated	0.06	possibly_damaging	0.692
+d07f1139-e0f3-5487-9616-57ce68d25587	chr12:g.25227348G>T	KRAS A59E	Substitution	Missense	6	4813	0.12	6	16477	0.04	MODERATE	deleterious	0.02	probably_damaging	0.999
+1a0125e9-a989-5bdf-9a29-a001237200ae	chr12:g.25225628C>G	KRAS A146P	Substitution	Missense	5	4813	0.10	5	16477	0.03	MODERATE	deleterious	0.0	probably_damaging	1.0
+3d6efd56-90c2-53b7-8b18-c90ecb3765e5	chr12:g.25227342T>G	KRAS Q61P	Substitution	Missense	4	4813	0.08	4	16477	0.02	MODERATE	deleterious	0.0	benign	0.168
+041da43c-7921-5841-995e-b05b48a6a872	chr12:g.25245317A>C	KRAS L23R	Substitution	Missense	3	4813	0.06	3	16477	0.02	MODERATE	deleterious	0.05	probably_damaging	0.997
+3fe15f69-db46-5ff8-83be-1cd7e619dc42	chr12:g.25209899delCAT	KRAS	Deletion	3 Prime Utr	3	4813	0.06	3	16477	0.02	MODIFIER				
+5908d477-e659-54d6-8a28-35e3aa6ca210	chr12:g.25227340C>T	KRAS E62K	Substitution	Missense	3	4813	0.06	3	16477	0.02	MODERATE	deleterious	0.01	possibly_damaging	0.669
+6bfad0f1-f533-54df-ad58-91dc25cd1078	chr12:g.25227337C>T	KRAS E63K	Substitution	Missense	3	4813	0.06	3	16477	0.02	MODERATE	deleterious	0.0	possibly_damaging	0.904
+c0bb407c-340c-55f6-831d-b4b5056fbde2	chr12:g.25245328C>A	KRAS L19F	Substitution	Missense	3	4813	0.06	3	16477	0.02	MODERATE	deleterious	0.01	probably_damaging	0.999
+d5fe082c-7ec2-52ba-9d94-e1066f67a606	chr12:g.25225714T>C	KRAS K117R	Substitution	Missense	3	4813	0.06	3	16477	0.02	MODERATE	deleterious	0.0	probably_damaging	0.975
+1b71010a-9ab3-5e24-ad1a-7b14ba4abe88	chr12:g.25227348G>C	KRAS A59G	Substitution	Missense	2	4813	0.04	2	16477	0.01	MODERATE	deleterious	0.01	benign	0.418
+469e3e06-c8a8-575f-b3c7-80963bf4cdcf	chr12:g.25209894G>T	KRAS	Substitution	3 Prime Utr	2	4813	0.04	2	16477	0.01	MODIFIER				
+52db1b02-4544-5d9f-9276-544503d0c52d	chr12:g.25215520C>T	KRAS R164Q	Substitution	Missense	2	4813	0.04	2	16477	0.01	MODERATE	deleterious	0.02	possibly_damaging	0.586
+65501cb9-1cf5-5041-9a09-b328ab985588	chr12:g.25227343G>C	KRAS Q61E	Substitution	Missense	2	4813	0.04	2	16477	0.01	MODERATE	deleterious	0.0	possibly_damaging	0.509
+71b10aa6-3cb7-5666-919b-70dfbb89bd94	chr12:g.25245346G>A	KRAS G13=	Substitution	Synonymous	2	4813	0.04	2	16477	0.01	LOW				
+a173b3cc-5320-547f-8e1c-8d5462a3cfb5	chr12:g.25227346delCTG	KRAS A59del	Deletion	Inframe Deletion	2	4813	0.04	2	16477	0.01	MODERATE				
+b0ed1a38-1acb-5130-bbe4-e73120b0b9bc	chr12:g.25245353_25245354insCTC	KRAS G10du	Insertion	Inframe Insertion	2	4813	0.04	2	16477	0.01	MODERATE				
+d755631c-4af2-5679-9e1e-62dad190c164	chr12:g.25227334A>T	KRAS Y64N	Substitution	Missense	2	4813	0.04	2	16477	0.01	MODERATE	deleterious	0.0	probably_damaging	0.991
+dc47b7d4-e12b-5901-bff4-abd9a7fe6e1b	chr12:g.25245348C>G	KRAS G13R	Substitution	Missense	2	4813	0.04	2	16477	0.01	MODERATE	deleterious	0.0	probably_damaging	0.986
+04118293-cdde-5299-8cc1-753af353f15b	chr12:g.25225715T>A	KRAS K117*	Substitution	Stop Gained	1	4813	0.02	1	16477	0.01	HIGH				
+07f33888-b319-55fa-a680-a0b924290e55	chr12:g.25227241G>A	KRAS H95Y	Substitution	Missense	1	4813	0.02	1	16477	0.01	MODERATE	tolerated	0.05	benign	0.0
+0913c7d1-6a78-50fe-a7e6-e9645668c34b	chr12:g.25234490G>T	KRAS	Substitution	Intron	1	4813	0.02	1	16477	0.01	MODIFIER				
+0a3ab561-e75a-529e-8c49-61a6d418420c	chr12:g.25225768T>A	KRAS Q99L	Substitution	Missense	1	4813	0.02	1	16477	0.01	MODERATE	deleterious	0.04	probably_damaging	0.964
+0a5aa822-ed1f-5648-a7d8-867351afb9d1	chr12:g.25227256A>G	KRAS F90L	Substitution	Missense	1	4813	0.02	1	16477	0.01	MODERATE	tolerated	0.05	benign	0.147
+0c7bb97d-10c7-595a-b9f9-965087d8d37b	chr12:g.25215521G>A	KRAS R164*	Substitution	Stop Gained	1	4813	0.02	1	16477	0.01	HIGH				
+0e0f992c-7501-56e7-a8ae-8c9107b7b67f	chr12:g.25227320C>T	KRAS R68=	Substitution	Synonymous	1	4813	0.02	1	16477	0.01	LOW				
+0f6b878e-86cd-5e02-9c24-6f33535bd0aa	chr12:g.25245352A>G	KRAS A11=	Substitution	Synonymous	1	4813	0.02	1	16477	0.01	LOW				
+0f6bafac-606f-5be1-8d61-c3cab3c2932b	chr12:g.25234650G>A	KRAS	Substitution	Intron	1	4813	0.02	1	16477	0.01	MODIFIER				
+1dcb7370-ce11-55a4-9dd8-a1e7182448c8	chr12:g.25207246A>G	KRAS	Substitution	3 Prime Utr	1	4813	0.02	1	16477	0.01	MODIFIER				
+1f4b4344-8d2b-5ec1-909f-da33755e33db	chr12:g.25207565G>C	KRAS	Substitution	3 Prime Utr	1	4813	0.02	1	16477	0.01	MODIFIER				
+2b7b40a3-f6f7-5e08-96a8-4735633f7195	chr12:g.25209820G>C	KRAS	Substitution	3 Prime Utr	1	4813	0.02	1	16477	0.01	MODIFIER				
+2cdd48ae-e518-53b9-a7d6-60fe0bf354e4	chr12:g.25225711C>G	KRAS C118S	Substitution	Missense	1	4813	0.02	1	16477	0.01	MODERATE	tolerated	0.1	benign	0.031
+2d79af4d-0cb9-5a9f-93c6-5a5311ceb2e9	chr12:g.25245349_25245350insCCAGCT	KRAS A11_G12du	Insertion	Inframe Insertion	1	4813	0.02	1	16477	0.01	MODERATE				
+34c4c326-fbe0-56e3-a54c-61724f89ed2f	chr12:g.25209272A>C	KRAS	Substitution	3 Prime Utr	1	4813	0.02	1	16477	0.01	MODIFIER				
+34c52674-4aa1-5e30-9695-ce06d6b5c022	chr12:g.25227344A>G	KRAS G60=	Substitution	Synonymous	1	4813	0.02	1	16477	0.01	LOW				
+368b0bbe-82ec-59b7-875e-73085f744b30	chr12:g.25209896A>G	KRAS	Substitution	3 Prime Utr	1	4813	0.02	1	16477	0.01	MODIFIER				
+37c1a78d-33d3-5705-aa4f-3383aa2b116c	chr12:g.25227348G>A	KRAS A59V	Substitution	Missense	1	4813	0.02	1	16477	0.01	MODERATE	deleterious	0.03	probably_damaging	0.972
+3f974a14-34dd-56f2-bdfa-0b9d3028e012	chr12:g.25227321C>A	KRAS R68M	Substitution	Missense	1	4813	0.02	1	16477	0.01	MODERATE	deleterious	0.0	probably_damaging	1.0
+4114e00d-b08d-5045-83d8-617067eb3b34	chr12:g.25206731T>G	KRAS	Substitution	3 Prime Utr	1	4813	0.02	1	16477	0.01	MODIFIER				
+426cef84-5126-59b1-b1cb-861bc294c203	chr12:g.25209892T>C	KRAS	Substitution	3 Prime Utr	1	4813	0.02	1	16477	0.01	MODIFIER				
+45938ae2-e929-500e-9596-06c82814770d	chr12:g.25235186T>G	KRAS	Substitution	Intron	1	4813	0.02	1	16477	0.01	MODIFIER				
+46494a4c-59b8-55b7-b5bc-43ed92b3c4c3	chr12:g.25215559C>G	KRAS R151T	Substitution	Missense	1	4813	0.02	1	16477	0.01	MODERATE	tolerated	0.05	benign	0.139
+479297ab-8075-56df-9d2b-d5364c2672f1	chr12:g.25209869T>G	KRAS	Substitution	3 Prime Utr	1	4813	0.02	1	16477	0.01	MODIFIER				
+49ee5520-b883-5df7-b527-e25bddd9b404	chr12:g.25215547G>T	KRAS A155D	Substitution	Missense	1	4813	0.02	1	16477	0.01	MODERATE	deleterious	0.0	probably_damaging	0.998
+4d874a74-9396-5e24-b5e5-bc28bc4c6ddf	chr12:g.25209860C>T	KRAS	Substitution	3 Prime Utr	1	4813	0.02	1	16477	0.01	MODIFIER				
+5244aaf8-9e87-5f03-8249-263b439e2eea	chr12:g.25209700T>A	KRAS	Substitution	3 Prime Utr	1	4813	0.02	1	16477	0.01	MODIFIER				
+5247f658-c29b-5d33-a961-d0cf8fb27a49	chr12:g.25245297C>T	KRAS D30N	Substitution	Missense	1	4813	0.02	1	16477	0.01	MODERATE	deleterious	0.04	possibly_damaging	0.843
+5a8bf359-2c6c-54de-9e34-9508250349a5	chr12:g.25206942delT	KRAS	Deletion	3 Prime Utr	1	4813	0.02	1	16477	0.01	MODIFIER				
+5d2498ca-1697-5262-8fe9-0170cdbbff53	chr12:g.25209878C>T	KRAS	Substitution	3 Prime Utr	1	4813	0.02	1	16477	0.01	MODIFIER				
+694b4ff5-996f-5a5a-98ab-d63712c96c1a	chr12:g.25227344A>C	KRAS G60=	Substitution	Synonymous	1	4813	0.02	1	16477	0.01	LOW				
+6b2fcd9a-fe1f-5b16-9940-587a0209cf37	chr12:g.25215499_25215500insT	KRAS I171Nfs*14	Insertion	Frameshift	1	4813	0.02	1	16477	0.01	HIGH				
+6e8c76b3-3f27-542e-a9d1-a9a3c4766941	chr12:g.25207723C>T	KRAS	Substitution	3 Prime Utr	1	4813	0.02	1	16477	0.01	MODIFIER				
+70a0495a-0cf4-570f-8041-e9d5f842597f	chr12:g.25225697T>A	KRAS R123*	Substitution	Stop Gained	1	4813	0.02	1	16477	0.01	HIGH				
+70aae226-1551-5f76-a1c5-8621439c718a	chr12:g.25245285G>T	KRAS P34T	Substitution	Missense	1	4813	0.02	1	16477	0.01	MODERATE	deleterious	0.0	probably_damaging	1.0
+715f9a74-177f-5b68-95e1-9022d26120ed	chr12:g.25245323A>C	KRAS I21R	Substitution	Missense	1	4813	0.02	1	16477	0.01	MODERATE	deleterious	0.0	probably_damaging	0.985
+747bf369-dfd8-5a49-9e15-5b704e512870	chr12:g.25225714T>A	KRAS K117I	Substitution	Missense	1	4813	0.02	1	16477	0.01	MODERATE	deleterious	0.0	possibly_damaging	0.52
+74cfa1a1-5c38-523e-8ce7-708d453e8ba3	chr12:g.25209905C>T	KRAS	Substitution	3 Prime Utr	1	4813	0.02	1	16477	0.01	MODIFIER				
+7b73f5d6-2cb8-5481-b460-50c27293f5a0	chr12:g.25245347C>A	KRAS G13V	Substitution	Missense	1	4813	0.02	1	16477	0.01	MODERATE	deleterious	0.02	probably_damaging	0.98
+7f5b1311-b85e-56df-af70-f23a440c1ef8	chr12:g.25227405T>C	KRAS Y40C	Substitution	Missense	1	4813	0.02	1	16477	0.01	MODERATE	deleterious	0.02	probably_damaging	0.999
+820c5aea-a98e-5cc3-8fb4-4b2cbff37952	chr12:g.25215485T>G	KRAS K176Q	Substitution	Missense	1	4813	0.02	1	16477	0.01	MODERATE	tolerated	0.32	benign	0.007
+83ecb220-9f9b-5bf4-9827-3c897d80dcaf	chr12:g.25245349A>T	KRAS G12=	Substitution	Synonymous	1	4813	0.02	1	16477	0.01	LOW				
+8418f6f3-d74a-543e-af0f-3d55b74bf24b	chr12:g.25209908C>T	KRAS	Substitution	3 Prime Utr	1	4813	0.02	1	16477	0.01	MODIFIER				
+85a9ba27-f44b-510e-ae84-ae6e24f3499a	chr12:g.25245280T>G	KRAS T35=	Substitution	Synonymous	1	4813	0.02	1	16477	0.01	LOW				
+8604f75f-a44f-5335-bc19-5bfe4747a98f	chr12:g.25209787A>G	KRAS	Substitution	3 Prime Utr	1	4813	0.02	1	16477	0.01	MODIFIER				
+88b8b6f8-9a88-5cb5-b88e-f7d628c6dadc	chr12:g.25225736G>A	KRAS P110S	Substitution	Missense	1	4813	0.02	1	16477	0.01	MODERATE	deleterious	0.01	possibly_damaging	0.777
+88fbfc69-4a74-5a17-adf4-20b37b6d9d15	chr12:g.25209810delCTTTGT	KRAS	Deletion	3 Prime Utr	1	4813	0.02	1	16477	0.01	MODIFIER				
+8922c761-d885-5f56-8f39-f5c011d3725b	chr12:g.25225772C>A	KRAS E98*	Substitution	Stop Gained	1	4813	0.02	1	16477	0.01	HIGH				
+8d63c98a-3210-54f7-a61f-81ac37779c52	chr12:g.25245284G>C	KRAS P34R	Substitution	Missense	1	4813	0.02	1	16477	0.01	MODERATE	deleterious	0.0	probably_damaging	1.0
+8dcd4d6e-480a-55b1-b78e-80f23c0be63d	chr12:g.25225677C>T	KRAS Q129=	Substitution	Synonymous	1	4813	0.02	1	16477	0.01	LOW				
+8f17291c-5c02-5de6-a3e4-ad68325d918b	chr12:g.25227258G>A	KRAS S89L	Substitution	Missense	1	4813	0.02	1	16477	0.01	MODERATE	deleterious	0.0	probably_damaging	0.998
+91614de6-cbc5-570f-b29c-7d7ebab020e3	chr12:g.25227337_25227338insCCTCATTGCACTGTACTT	KRAS E62_E63insKYSAMR	Insertion	Inframe Insertion	1	4813	0.02	1	16477	0.01	MODERATE				
+93ab7c2f-becd-5530-8924-394e5f2eaf0b	chr12:g.25227250C>A	KRAS D92Y	Substitution	Missense	1	4813	0.02	1	16477	0.01	MODERATE	deleterious	0.0	probably_damaging	0.963
+98aa516e-ab84-56c7-adce-10ec9749bd0a	chr12:g.25227262T>A	KRAS K88*	Substitution	Stop Gained	1	4813	0.02	1	16477	0.01	HIGH				
+a2db18fb-d265-531b-bd70-a5df59d9a336	chr12:g.25245346_25245347insCCA	KRAS G13du	Insertion	Inframe Insertion	1	4813	0.02	1	16477	0.01	MODERATE				
+a8d32cbf-58a4-505d-832f-fa9325901035	chr12:g.25234221C>G	KRAS	Substitution	Intron	1	4813	0.02	1	16477	0.01	MODIFIER				
+ab378ed2-2a2a-58b6-a83c-fbdd8e355215	chr12:g.25245284G>A	KRAS P34L	Substitution	Missense	1	4813	0.02	1	16477	0.01	MODERATE	deleterious	0.0	probably_damaging	1.0
+ac1c295d-f38f-5d49-a473-196d660e2c77	chr12:g.25245314A>T	KRAS I24N	Substitution	Missense	1	4813	0.02	1	16477	0.01	MODERATE	deleterious	0.0	probably_damaging	0.992
+ae20d14c-90c9-50fb-9cdd-a2d05f4f3a4d	chr12:g.25208505T>A	KRAS	Substitution	3 Prime Utr	1	4813	0.02	1	16477	0.01	MODIFIER				
+b05dbba3-86dd-5bee-ae58-9db1896147c6	chr12:g.25227320C>A	KRAS R68S	Substitution	Missense	1	4813	0.02	1	16477	0.01	MODERATE	deleterious	0.0	probably_damaging	1.0
+b3be8609-0207-5fad-a507-e11407138cb5	chr12:g.25209871C>T	KRAS	Substitution	3 Prime Utr	1	4813	0.02	1	16477	0.01	MODIFIER				
+b3fe503d-206a-5ded-a2f7-21089094a5be	chr12:g.25205745T>G	KRAS	Substitution	3 Prime Utr	1	4813	0.02	1	16477	0.01	MODIFIER				
+b4cf2721-c4ad-56d6-8401-dfcd4e2eae80	chr12:g.25245286A>T	KRAS D33E	Substitution	Missense	1	4813	0.02	1	16477	0.01	MODERATE	tolerated	0.08	probably_damaging	0.979
+b952a82a-271e-5309-994b-d0ef9b5f50ef	chr12:g.25227355C>T	KRAS D57N	Substitution	Missense	1	4813	0.02	1	16477	0.01	MODERATE	deleterious	0.0	probably_damaging	0.992
+b95a08bc-7bd5-5659-b0c0-b0068f40627c	chr12:g.25215539T>C	KRAS T158A	Substitution	Missense	1	4813	0.02	1	16477	0.01	MODERATE	tolerated	0.32	benign	0.011
+bf6b7abf-6dc9-53b2-a1a6-7d884a2272e9	chr12:g.25208588G>A	KRAS	Substitution	3 Prime Utr	1	4813	0.02	1	16477	0.01	MODIFIER				
+c0bc6159-762e-5e8c-9c39-b3511067a22d	chr12:g.25245378C>T	KRAS E3K	Substitution	Missense	1	4813	0.02	1	16477	0.01	MODERATE	deleterious	0.03	benign	0.146
+c186f4ae-7339-56f8-b30c-b997113cb505	chr12:g.25209850C>A	KRAS	Substitution	3 Prime Utr	1	4813	0.02	1	16477	0.01	MODIFIER				
+c41fbdfa-1f35-54f4-b914-ba5b77093d16	chr12:g.25227339_25227340insGGGGGGCGGGTACTGGTC	KRAS E62delinsGPVPAPQ	Insertion	Protein Altering	1	4813	0.02	1	16477	0.01	MODERATE				
+c5998e99-8773-5cec-99bf-2cde1f0961ae	chr12:g.25233859A>T	KRAS	Substitution	Intron	1	4813	0.02	1	16477	0.01	MODIFIER				
+c8551735-b849-5e4c-8295-bc734486a99b	chr12:g.25206849A>C	KRAS	Substitution	3 Prime Utr	1	4813	0.02	1	16477	0.01	MODIFIER				
+ca278530-eef5-53f5-a3c0-738a153a5468	chr12:g.25245372T>C	KRAS K5E	Substitution	Missense	1	4813	0.02	1	16477	0.01	MODERATE	deleterious	0.03	probably_damaging	0.956
+ca56c6a2-eec0-5de6-95b1-565c9e2a7278	chr12:g.25245325C>T	KRAS T20=	Substitution	Synonymous	1	4813	0.02	1	16477	0.01	LOW				
+cfa1d643-2689-5023-b8e6-2edb2b0a0b19	chr12:g.25227345C>T	KRAS G60D	Substitution	Missense	1	4813	0.02	1	16477	0.01	MODERATE	deleterious	0.0	probably_damaging	1.0
+d1c7d8da-b672-531e-893d-456558c48b81	chr12:g.25245277T>C	KRAS I36M	Substitution	Missense	1	4813	0.02	1	16477	0.01	MODERATE	deleterious	0.0	probably_damaging	0.976
+d223d388-423d-5ed2-8b02-d2ee4dfa0b9a	chr12:g.25209835T>C	KRAS	Substitution	3 Prime Utr	1	4813	0.02	1	16477	0.01	MODIFIER				
+d3f71801-e15d-5bdd-a826-56824ee8cdaa	chr12:g.25225724C>A	KRAS V114L	Substitution	Missense	1	4813	0.02	1	16477	0.01	MODERATE	tolerated	0.05	benign	0.399
+d7fae6de-5817-516b-9816-7f48f56d92f2	chr12:g.25245326G>C	KRAS T20R	Substitution	Missense	1	4813	0.02	1	16477	0.01	MODERATE	deleterious	0.0	probably_damaging	1.0
+d81d50f6-c01c-594b-8319-5d3b12f868ff	chr12:g.25227368G>A	KRAS L52=	Substitution	Synonymous	1	4813	0.02	1	16477	0.01	LOW				
+db41feba-62d4-5c21-baee-007d590f4ea1	chr12:g.25227351G>A	KRAS T58I	Substitution	Missense	1	4813	0.02	1	16477	0.01	MODERATE	deleterious	0.0	probably_damaging	1.0
+e5343316-335a-5ec4-9658-2e4b629d90fa	chr12:g.25245316T>C	KRAS L23=	Substitution	Synonymous	1	4813	0.02	1	16477	0.01	LOW				
+e6528d85-f144-52e5-b672-0afa7ee1105e	chr12:g.25227349C>A	KRAS A59S	Substitution	Missense	1	4813	0.02	1	16477	0.01	MODERATE	deleterious	0.04	possibly_damaging	0.774
+e81efc96-b893-591f-9045-54f65cd68f93	chr12:g.25225660C>G	KRAS R135T	Substitution	Missense	1	4813	0.02	1	16477	0.01	MODERATE	deleterious	0.02	benign	0.007
+ee0fee2b-d0c6-58c1-998e-18b673f54f01	chr12:g.25245344_25245345insCGC	KRAS G13du	Insertion	Inframe Insertion	1	4813	0.02	1	16477	0.01	MODERATE				

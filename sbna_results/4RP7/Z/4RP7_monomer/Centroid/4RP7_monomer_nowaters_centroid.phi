@@ -1,0 +1,17 @@
+REM  -------------------- Secondary structure summary -------------------  ~~~~
+REM                                                                        ~~~~
+CHN  4RP7_monomer_nowaters.pdb Z                                           ~~~~
+REM                                                                        ~~~~
+REM                                                                        ~~~~
+SEQ  1    TIITLE                                                6          ~~~~
+STR                                                                        ~~~~
+REM                                                                        ~~~~
+REM  --------------- Detailed secondary structure assignment-------------  ~~~~
+REM                                                                        ~~~~
+REM  |---Residue---|    |--Structure--|   |-Phi-|   |-Psi-|  |-Area-|      ~~~~
+ASG  THR Z    1    1    C          Coil    360.00    131.11     180.0      ~~~~
+ASG  ILE Z    2    2    C          Coil   -122.77    125.57     150.8      ~~~~
+ASG  ILE Z    3    3    C          Coil   -122.41    121.84     142.0      ~~~~
+ASG  THR Z    4    4    C          Coil   -127.93    126.39     115.3      ~~~~
+ASG  LEU Z    5    5    C          Coil   -122.36    121.67     152.1      ~~~~
+ASG  GLU Z    6    6    C          Coil    -87.13    360.00     257.8      ~~~~

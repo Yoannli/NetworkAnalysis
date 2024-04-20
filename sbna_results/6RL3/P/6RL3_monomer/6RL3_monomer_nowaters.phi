@@ -1,0 +1,22 @@
+REM  -------------------- Secondary structure summary -------------------  ~~~~
+REM                                                                        ~~~~
+CHN  6RL3_monomer_nowaters.pdb P                                           ~~~~
+REM                                                                        ~~~~
+REM                .                                                       ~~~~
+SEQ  1    KLMFKEGPDSD                                          11          ~~~~
+STR                                                                        ~~~~
+REM                                                                        ~~~~
+REM  --------------- Detailed secondary structure assignment-------------  ~~~~
+REM                                                                        ~~~~
+REM  |---Residue---|    |--Structure--|   |-Phi-|   |-Psi-|  |-Area-|      ~~~~
+ASG  LYS P  382    1    C          Coil    360.00    141.94     199.0      ~~~~
+ASG  LEU P  383    2    C          Coil    -72.67    118.39     129.9      ~~~~
+ASG  MET P  384    3    C          Coil   -101.50    130.86      95.5      ~~~~
+ASG  PHE P  385    4    C          Coil    -83.19    163.56     165.9      ~~~~
+ASG  LYS P  386    5    C          Coil    -70.42    360.00     228.8      ~~~~
+ASG  GLU P  388    6    C          Coil    360.00    146.69     221.9      ~~~~
+ASG  GLY P  389    7    C          Coil     84.03   -167.96      43.4      ~~~~
+ASG  PRO P  390    8    C          Coil    -54.68    128.69     117.3      ~~~~
+ASG  ASP P  391    9    C          Coil    -85.06     71.99     128.6      ~~~~
+ASG  SER P  392   10    C          Coil    -93.21      1.45     108.8      ~~~~
+ASG  ASP P  393   11    C          Coil   -116.98    360.00     147.5      ~~~~

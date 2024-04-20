@@ -1,0 +1,62 @@
+ssm_id	dna_change	protein_change	type	consequence	num_ssm_affected_cases	num_HRAS_cases	ssm_affected_cases_percentage	num_gdc_ssm_affected_cases	num_gdc_ssm_cases	gdc_ssm_affected_cases_percentage	vep_impact	sift_impact	sift_score	polyphen_impact	polyphen_score
+92bc7074-9d74-53e7-a7c9-3a014dfbd9a1	chr11:g.533874T>C	HRAS Q61R	Substitution	Missense	31	3432	0.90	31	16477	0.19	MODERATE	tolerated	0.07	benign	0.1
+10bc34e6-5f7e-5e8b-970a-a8fcbd5f5563	chr11:g.534286C>G	HRAS G13R	Substitution	Missense	13	3432	0.38	13	16477	0.08	MODERATE	deleterious	0.0	probably_damaging	0.975
+00333225-efdc-5590-bd91-345ccae32fa5	chr11:g.534285C>A	HRAS G13V	Substitution	Missense	12	3432	0.35	12	16477	0.07	MODERATE	deleterious	0.02	probably_damaging	0.957
+3f98944c-94ab-55b0-8356-3428d01db75e	chr11:g.534289C>T	HRAS G12S	Substitution	Missense	11	3432	0.32	11	16477	0.07	MODERATE	deleterious	0.02	benign	0.383
+5a9b5363-5d2b-58d5-8816-456e8f840092	chr11:g.533875G>T	HRAS Q61K	Substitution	Missense	11	3432	0.32	11	16477	0.07	MODERATE	deleterious	0.02	benign	0.067
+49183852-d0a7-57c0-a158-3133dd2b017a	chr11:g.533874T>A	HRAS Q61L	Substitution	Missense	9	3432	0.26	9	16477	0.05	MODERATE	deleterious	0.0	possibly_damaging	0.577
+86b41557-30b7-5049-bd5a-d9e9adc3e61c	chr11:g.534288C>T	HRAS G12D	Substitution	Missense	8	3432	0.23	8	16477	0.05	MODERATE	deleterious	0.0	benign	0.339
+ab24aa76-b65f-5736-8d09-0b76b68d629d	chr11:g.534285C>T	HRAS G13D	Substitution	Missense	5	3432	0.15	5	16477	0.03	MODERATE	deleterious	0.04	benign	0.251
+43b8010b-408d-5d4a-bf59-a2cb7f046285	chr11:g.533881C>T	HRAS A59T	Substitution	Missense	4	3432	0.12	4	16477	0.02	MODERATE	tolerated	0.06	benign	0.215
+4b24a8f3-d219-5685-98c4-eb0cb2e7babb	chr11:g.533552C>A	HRAS K117N	Substitution	Missense	3	3432	0.09	3	16477	0.02	MODERATE	deleterious	0.01	possibly_damaging	0.708
+740b6bb4-0f93-51c7-9b68-994dc4b456b8	chr11:g.534288C>A	HRAS G12V	Substitution	Missense	3	3432	0.09	3	16477	0.02	MODERATE	deleterious	0.0	possibly_damaging	0.454
+a430713d-4d21-54b5-8b7b-238850e18eda	chr11:g.533552C>G	HRAS K117N	Substitution	Missense	3	3432	0.09	3	16477	0.02	MODERATE	deleterious	0.01	possibly_damaging	0.708
+bd5fe6b9-173b-5846-92db-e0f749ef6114	chr11:g.534289C>A	HRAS G12C	Substitution	Missense	3	3432	0.09	3	16477	0.02	MODERATE	deleterious	0.04	benign	0.385
+c89f15dc-56b2-5fb1-8c5c-c4ba10917d5d	chr11:g.534286C>A	HRAS G13C	Substitution	Missense	3	3432	0.09	3	16477	0.02	MODERATE	deleterious	0.02	benign	0.385
+3472ff87-d3f4-53fa-9740-d8ca68b76943	chr11:g.533877C>A	HRAS G60V	Substitution	Missense	2	3432	0.06	2	16477	0.01	MODERATE	deleterious	0.0	probably_damaging	1.0
+90b541e1-696e-5eda-9ceb-ad41e4076a06	chr11:g.533312delGGGTCCCAGA	HRAS	Deletion	Intron	2	3432	0.06	2	16477	0.01	MODIFIER				
+013b0e9b-cb97-56d1-abc6-4aa25f7b0f97	chr11:g.533499C>T	HRAS R135Q	Substitution	Missense	1	3432	0.03	1	16477	0.01	MODERATE	tolerated	0.17	benign	0.082
+01d9efd1-976f-50c2-9f3b-177508ac62da	chr11:g.533503C>T	HRAS A134T	Substitution	Missense	1	3432	0.03	1	16477	0.01	MODERATE	deleterious	0.0	probably_damaging	0.972
+0add47b0-0f5e-5bb3-a469-2d5bbfbd0da1	chr11:g.532690G>T	HRAS N172K	Substitution	Missense	1	3432	0.03	1	16477	0.01	MODERATE	tolerated	0.22	benign	0.003
+0ae14133-759e-5c18-94ba-73e7d69ed24a	chr11:g.534286C>T	HRAS G13S	Substitution	Missense	1	3432	0.03	1	16477	0.01	MODERATE	deleterious	0.02	benign	0.383
+12ab5a27-dcce-5175-8a2d-3d3f231ab7f9	chr11:g.533573G>A	HRAS P110=	Substitution	Synonymous	1	3432	0.03	1	16477	0.01	LOW				
+144ee0a8-7c62-5d38-ae73-6c61152fc00d	chr11:g.533473T>C	HRAS T144A	Substitution	Missense	1	3432	0.03	1	16477	0.01	MODERATE	tolerated	0.06	possibly_damaging	0.864
+153f380a-9719-50d6-9071-f365707f2c65	chr11:g.532642G>C	HRAS L188=	Substitution	Synonymous	1	3432	0.03	1	16477	0.01	LOW				
+18fe4c2d-c05b-542f-9b78-d408baa46e11	chr11:g.533854G>A	HRAS R68W	Substitution	Missense	1	3432	0.03	1	16477	0.01	MODERATE	deleterious	0.02	probably_damaging	1.0
+1da7a6b9-ba8e-5d0e-9c2d-7e5df0ece716	chr11:g.533515C>T	HRAS A130T	Substitution	Missense	1	3432	0.03	1	16477	0.01	MODERATE	deleterious	0.0	possibly_damaging	0.752
+2724637e-cd52-5a73-9421-2ef023e8a0b2	chr11:g.534290G>A	HRAS A11=	Substitution	Synonymous	1	3432	0.03	1	16477	0.01	LOW				
+2ced7115-61ec-5466-be58-8b3f5541830d	chr11:g.533544A>G	HRAS L120P	Substitution	Missense	1	3432	0.03	1	16477	0.01	MODERATE	deleterious	0.0	probably_damaging	0.957
+36763191-57b1-5f40-a29d-870f284b1c65	chr11:g.533336G>A	HRAS	Substitution	Intron	1	3432	0.03	1	16477	0.01	MODIFIER				
+4881d5bf-c1ec-5229-b4f6-8ad0004165dc	chr11:g.533839G>A	HRAS R73C	Substitution	Missense	1	3432	0.03	1	16477	0.01	MODERATE	deleterious	0.04	possibly_damaging	0.624
+4ef8ec42-da6c-55d0-9687-2c64610cef52	chr11:g.533281C>T	HRAS	Substitution	Intron	1	3432	0.03	1	16477	0.01	MODIFIER				
+4fd2d364-411a-587a-8aa7-b4a6102a07a5	chr11:g.533476C>T	HRAS E143K	Substitution	Missense	1	3432	0.03	1	16477	0.01	MODERATE	deleterious	0.02	possibly_damaging	0.648
+500e77e8-b874-5a59-87f6-01b5242f20a1	chr11:g.532642G>A	HRAS L188=	Substitution	Synonymous	1	3432	0.03	1	16477	0.01	LOW				
+51bee65d-1a02-5e7c-bf2f-4e1d125796e2	chr11:g.533320G>A	HRAS	Substitution	Intron	1	3432	0.03	1	16477	0.01	MODIFIER				
+5658db50-5e09-5611-91d9-cf3053a40eec	chr11:g.533469G>T	HRAS S145*	Substitution	Stop Gained	1	3432	0.03	1	16477	0.01	HIGH				
+56a08885-6966-5e6f-b00e-c183cf600527	chr11:g.533550C>T	HRAS C118Y	Substitution	Missense	1	3432	0.03	1	16477	0.01	MODERATE	deleterious	0.05	benign	0.079
+5e8c2f6f-d1de-5cca-b953-f26eb6538c60	chr11:g.534226C>T	HRAS D33N	Substitution	Missense	1	3432	0.03	1	16477	0.01	MODERATE	deleterious	0.03	possibly_damaging	0.845
+67f8a62c-bc8e-5694-9d53-8d3077bed0b2	chr11:g.533308_533309insG	HRAS	Insertion	Intron	1	3432	0.03	1	16477	0.01	MODIFIER				
+6e2cc89c-3000-5521-9ab4-33cd2186b015	chr11:g.533348G>A	HRAS	Substitution	Intron	1	3432	0.03	1	16477	0.01	MODIFIER				
+7f587013-7d6b-5413-8138-d20441492bfd	chr11:g.532707T>C	HRAS K167E	Substitution	Missense	1	3432	0.03	1	16477	0.01	MODERATE	tolerated	0.12	benign	0.006
+8df8c7f9-4274-5838-ba57-cb04cb892edb	chr11:g.533830C>A	HRAS E76*	Substitution	Stop Gained	1	3432	0.03	1	16477	0.01	HIGH				
+946dd917-177b-5315-ba7c-0f894e6fb10c	chr11:g.533787A>C	HRAS F90C	Substitution	Missense	1	3432	0.03	1	16477	0.01	MODERATE	deleterious	0.0	probably_damaging	1.0
+951b64d9-a154-510f-9838-af2e6c82aee7	chr11:g.533504G>A	HRAS L133=	Substitution	Synonymous	1	3432	0.03	1	16477	0.01	LOW				
+992cafa7-e01f-5369-83a1-9ad28631a713	chr11:g.534284_534285insCCG	HRAS G13du	Insertion	Inframe Insertion	1	3432	0.03	1	16477	0.01	MODERATE				
+997cb162-fea9-55dd-875e-bdd9f6b20ebc	chr11:g.534227G>A	HRAS Y32=	Substitution	Synonymous	1	3432	0.03	1	16477	0.01	LOW				
+9ccafc8e-d4b1-546f-978b-02f7493b79cb	chr11:g.533345delCCAGAGCGGCTGCCCTGTGTCAAGGGAGAGGGTCAGTGAGT	HRAS	Deletion	Intron	1	3432	0.03	1	16477	0.01	MODIFIER				
+a0202581-8d2a-5436-839d-0444c3459810	chr11:g.533934C>T	HRAS R41Q	Substitution	Missense	1	3432	0.03	1	16477	0.01	MODERATE	tolerated	0.07	benign	0.373
+a1606757-dd47-5181-a80e-912752e77070	chr11:g.533899A>T	HRAS L53M	Substitution	Missense	1	3432	0.03	1	16477	0.01	MODERATE	deleterious	0.0	probably_damaging	0.996
+a2d3f010-4497-5a4b-ab08-7dfd63a9ec82	chr11:g.534289C>G	HRAS G12R	Substitution	Missense	1	3432	0.03	1	16477	0.01	MODERATE	deleterious	0.03	possibly_damaging	0.684
+bd4a6d67-09fd-5219-9d3d-596a5fca226f	chr11:g.533352G>A	HRAS	Substitution	Intron	1	3432	0.03	1	16477	0.01	MODIFIER				
+c49dfdad-165e-5023-b423-477a58f4bf4a	chr11:g.533873C>A	HRAS Q61H	Substitution	Missense	1	3432	0.03	1	16477	0.01	MODERATE	deleterious	0.03	benign	0.099
+cabe03cf-d2d8-5fdb-9360-fa5fcc33a7d9	chr11:g.534293G>A	HRAS G10=	Substitution	Synonymous	1	3432	0.03	1	16477	0.01	LOW				
+d3398ea1-bc43-5f83-8552-17c2a9f60b19	chr11:g.533845A>G	HRAS Y71H	Substitution	Missense	1	3432	0.03	1	16477	0.01	MODERATE	deleterious	0.05	possibly_damaging	0.637
+d37ef917-d7a3-54fc-9cd3-166cb0134335	chr11:g.533553T>C	HRAS K117R	Substitution	Missense	1	3432	0.03	1	16477	0.01	MODERATE	deleterious	0.0	probably_damaging	0.954
+dddea2e2-c643-5554-a57f-6da3faa7a19e	chr11:g.533523G>T	HRAS S127Y	Substitution	Missense	1	3432	0.03	1	16477	0.01	MODERATE	tolerated	0.86	benign	0.01
+df07126a-4287-5ed3-9df6-c2e736d73580	chr11:g.533878C>T	HRAS G60S	Substitution	Missense	1	3432	0.03	1	16477	0.01	MODERATE	deleterious	0.0	probably_damaging	0.996
+e3194f40-8af9-5bd9-956f-0313071e1bce	chr11:g.534288C>G	HRAS G12A	Substitution	Missense	1	3432	0.03	1	16477	0.01	MODERATE	deleterious	0.02	possibly_damaging	0.651
+e375cc69-538b-5f32-b509-7e0529ca8406	chr11:g.533785C>T	HRAS E91K	Substitution	Missense	1	3432	0.03	1	16477	0.01	MODERATE	tolerated	0.05	benign	0.127
+e4ad438e-3ed2-58f9-988e-c055eac24f39	chr11:g.533462C>G	HRAS K147N	Substitution	Missense	1	3432	0.03	1	16477	0.01	MODERATE	deleterious	0.0	probably_damaging	0.994
+f0f21a97-32cc-51be-97a9-e7e2c91023e1	chr11:g.532700C>T	HRAS R169Q	Substitution	Missense	1	3432	0.03	1	16477	0.01	MODERATE	tolerated	0.28	benign	0.0
+f2115a9c-12e9-5b2b-98ed-62f1562b7667	chr11:g.533535C>T	HRAS R123H	Substitution	Missense	1	3432	0.03	1	16477	0.01	MODERATE	deleterious	0.02	possibly_damaging	0.597
+fb44e66e-9349-5191-8e0c-2c5847bc1cdb	chr11:g.532669delG	HRAS G180Afs*3	Deletion	Frameshift	1	3432	0.03	1	16477	0.01	HIGH				
