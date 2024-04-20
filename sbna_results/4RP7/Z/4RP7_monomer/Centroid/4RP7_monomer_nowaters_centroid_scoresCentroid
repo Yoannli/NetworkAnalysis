@@ -1,0 +1,7 @@
+RSA	Degree	Degree_uniqueAtoms	SecondOrderDegree	SecondOrderDegree_uniqueAtoms	NodeEdgeBetweennessSTRIDE	NodeEdgeBetweennessSTRIDE_unqiueAtoms	IntermodularDegreeSTRIDE	IntermodularDegreeSTRIDE_uniqueAtoms	SecondOrderIntermodularDegreeSTRIDE	SecondOrderIntermodularDegreeSTRIDE_uniqueAtoms	NodeEdgeBetweennessWALKTRAP	NodeEdgeBetweennessWALKTRAP_uniqueAtoms	IntermodularDegreeWALKTRAP	IntermodularDegreeWALKTRAP_uniqueAtoms	SecondOrderIntermodularDegreeWALKTRAP	SecondOrderIntermodularDegreeWALKTRAP_uniqueAtoms	Ligand
+ILE3Z	0.7845304	3	1	1	1	3	1	2	1	2	1	3	1	2	1	2	1	151
+THR1Z	1.1803279	2	1	2	1	3	1	2	1	2	1	1	1	1	1	1	1	151
+LEU5Z	0.7876748	2	1	2	1	1	1	1	1	1	1	3	1	2	1	2	1	151
+ILE2Z	0.8331492	2	1	2	1	1	1	1	1	1	1	3	1	2	1	3	1	151
+THR4Z	0.7560656	3	1	1	1	1	1	1	1	1	1	5	1	3	1	3	1	151
+GLU6Z	1.3845328	2	1	2	1	1	1	1	1	1	1	3	1	2	1	3	1	151
