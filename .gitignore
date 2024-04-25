@@ -2,3 +2,5 @@ venv
 *.pyc
 .DS_Store
 .env
+/pdb_files
+/sbna_results
