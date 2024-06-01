@@ -1,0 +1,21 @@
+﻿aa1,aa3,Acid Type,Density (nm−2−2)
+I,Ile,Hydrophobic,4.83
+A,Ala,Hydrophobic,5.77
+F,Phe,Hydrophobic,4.96
+L,Leu,Hydrophobic,5.11
+M,Met,Hydrophobic,5.63
+P,Pro,Special cases,4.8
+V,Val,Hydrophobic,4.95
+W,Trp,Hydrophobic,4.67
+C,Cys,Special cases,5.79
+G,Gly,Special cases,5.88
+T,Thr,Polar uncharged,4.37
+S,Ser,Polar uncharged,5.72
+Y,Tyr,Hydrophobic,5.02
+Q,Gln,Polar uncharged,5.58
+N,Asn,Polar uncharged,5.88
+H,His,Polar charged positive,5.35
+K,Lys,Polar charged positive,5.49
+E,Glu,Polar charged negative,5.49
+R,Arg,Polar charged positive,5.36
+D,Asp,Polar charged negative,5.73
