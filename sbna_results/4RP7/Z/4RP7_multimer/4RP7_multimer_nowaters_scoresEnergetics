@@ -1,7 +1,0 @@
-Degree	Degree_sidechain	SecondOrderDegree	SecondOrderDegree_sidechain	NodeEdgeBetweennessSTRIDE	NodeEdgeBetweennessSTRIDE_sidechain	IntermodularDegreeSTRIDE	IntermodularDegreeSTRIDE_sidechain	SecondOrderIntermodularDegreeSTRIDE	SecondOrderIntermodularDegreeSTRIDE_sidechain	NodeEdgeBetweennessWALKTRAP	NodeEdgeBetweennessWALKTRAP_sidechain	IntermodularDegreeWALKTRAP	IntermodularDegreeWALKTRAP_sidechain	SecondOrderIntermodularDegreeWALKTRAP	SecondOrderIntermodularDegreeWALKTRAP_sidechain
-LEU5Z	3	3	4	3	1	1	1	1	1	1	7	5.13221811061143	2	2	2	2
-THR4Z	4	4	4	2	1	1	1	1	1	1	7	2.86778188938857	3	3	2	1
-ILE2Z	3	1	3	1	5	1	2	1	1	0	1	1	1	1	1	1
-THR1Z	2	2	2	1	5	5	2	2	1	0	1	1	1	1	1	1
-ILE3Z	3	1	4	1	1	1	1	1	1	1	1	1	2	1	2	0
-GLU6Z	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
