@@ -171,7 +171,6 @@ def create_diverging_palette(data, meaninful_zero=True, num_bins=10, palette="Br
         return colour_maps, binvalues
 
     else: # for example network scores, where 0 does not mean anything
-        sys.stderr.write("NOT MEANINGFUL")
         binvalues = np.linspace(min_val, max_val, num_bins+1)
         binvalues = [round(x, 2) for x in binvalues]
         binvalues[0] -= 0.01 # to make sure it includes the lowest value
@@ -184,7 +183,7 @@ def create_diverging_palette(data, meaninful_zero=True, num_bins=10, palette="Br
 
 
 
-def make_output_script(wayout, scoredict, keepchains, groupname, palette="BrBG", reverse_colors=False, highlight_residue=None, meaninful_zero=True):
+def make_output_script(wayout, scoredict, groupname, palette="BrBG", reverse_colors=False, highlight_residue=None, meaninful_zero=True):
 
     try:
         plt.get_cmap(palette)
@@ -193,7 +192,6 @@ def make_output_script(wayout, scoredict, keepchains, groupname, palette="BrBG",
         palette = "BrBG"
 
     default_color = plt.get_cmap(palette)(0.5)[:-1]  # default color for residues not in any group
-
     
     all_scores = list( itertools.chain( list(rd.values()) for rd in scoredict.values() ) )[0]
     sys.stderr.write("# Generating list of bins from data\n")
@@ -203,8 +201,12 @@ def make_output_script(wayout, scoredict, keepchains, groupname, palette="BrBG",
     median_val = numpy.median(all_scores)
     sys.stderr.write("# data range from {:.2f} to {:.2f}, diff of {:.2f}, median of {:.2f}\n".format(lowest_val, highest_val, val_range, median_val) )
 
-    targetcolors, binvalues = create_diverging_palette(all_scores, meaninful_zero=meaninful_zero, num_bins=9, palette=palette)
+    NUM_BINS = 11
+    targetcolors, binvalues = create_diverging_palette(all_scores, meaninful_zero=meaninful_zero, num_bins=NUM_BINS, palette=palette)
     
+    if reverse_colors:
+        targetcolors.reverse()
+
     # save targetcolors and binvalues to a file
     with open("palette.pkl", "wb") as f:
         pickle.dump((targetcolors, binvalues), f)
@@ -216,10 +218,9 @@ def make_output_script(wayout, scoredict, keepchains, groupname, palette="BrBG",
     wayout.write("set_color colordefault, [{}]\n".format( ",".join(map(str,default_color)) ) )
     wayout.write("color colordefault, all\n")
 
-    colour_levels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i']
+    alphabets = 'abcdefghijklmnopqrstuvwxyz'
+    colour_levels = [x for x in alphabets[:len(binvalues)-1]]
 
-    if reverse_colors:
-        targetcolors.reverse()
     for i,rgb in enumerate(targetcolors):
         # note: had to correct this since bins for -1.5 and -1.0 were being assigned the same color name since it uses int 
         # colorname = "{}{:02d}".format( basecolor, int(binvalues[i]*binname_correction) ) # previous code
@@ -229,8 +230,9 @@ def make_output_script(wayout, scoredict, keepchains, groupname, palette="BrBG",
         highlight_color = [1.0, 0.0, 0.0]  # You can change this to the desired RGB highlight color
         wayout.write(f"set_color highlight, [{','.join(map(str,highlight_color))}]\n")
 
+
     # make commands for each chain
-    for chain in keepchains.keys(): # keys are chain letters, values are seq IDs
+    for chain in scoredict.keys(): # keys are chain letters, values are seq IDs
         scoregroups = defaultdict(list) # key is percent group, value is list of residues
         # for each residue, assign to a bin
         for residue in scoredict[chain].keys():
@@ -241,7 +243,6 @@ def make_output_script(wayout, scoredict, keepchains, groupname, palette="BrBG",
                     # scoregroups[value].append(residue - chainoffset)
                     scoregroups[value].append(residue)  # chainoffset removed
                     break
-
         # assign whole chain to lowest color, then build up
         wayout.write("color colordefault, chain {}\n".format( chain ) )
         for i,value in enumerate(binvalues[:-1]):
@@ -265,31 +266,30 @@ def main(argv, wayout):
     if not len(argv):
         argv.append('-h')
     parser = argparse.ArgumentParser(formatter_class=argparse.RawDescriptionHelpFormatter, description=__doc__)
-    parser.add_argument("-c","--data-column", default=1, type=int, help="index of data column, starting from 0 [1]")
+    parser.add_argument("-c","--data-column", default=2, type=int, help="index of data column, starting from 0 [1]")
     parser.add_argument("-d","--delimiter", default="\t", help="delimiter for file, default is tab")
     parser.add_argument("-g","--group-name", default="grp", help="name for groups, default is grp, appears as 100_grp_9_A")
     parser.add_argument("-i","--input-file", help="tabular or csv file of site data, with sites in the first column", required=True)
     parser.add_argument("-l","--base-color", default="red", help="color gradient, default is red, options are: [red,yellow,blue,green,div1w,div1b,div2w,div2b]")
-    parser.add_argument("-p","--pdb", help="PDB format file", required=True)
-    parser.add_argument("-s","--sequence", nargs="*", help="sequence ID for PDB, give multiple names if data is available in the input file")
+    # parser.add_argument("-p","--pdb", help="PDB format file", required=True)
+    # parser.add_argument("-s","--sequence", nargs="*", help="sequence ID for PDB, give multiple names if data is available in the input file")
     parser.add_argument("--default-chain", default="A", help="default letter of chain [A], if DBREF for the sequence cannot be found in PDB")
     parser.add_argument("-x","--exclude-common-group", action="store_true", help="exclude common group, for cases where there are a large number of score-0 residues")
     parser.add_argument("-O","--default-chain-override", type=int, help="index to color all residues by default (from 0 to 8) for lowest score group, otherwise determined automatically")
     parser.add_argument("-r","--reverse-colors", action="store_true", help="if used, reverse colors for negative-value datasets")
     parser.add_argument("-f", "--highlight-residue", nargs="*", type=int, help="residue number to highlight with a different color")
     parser.add_argument("-z","--meaningful-zero", action="store_false", help="if used, middle color is the mean of the data, otherwise it is 0 (default)")
-    parser.add_argument("--chain-column", type=int, help="column containing chain ID, default is None, will use chain A")
-    parser.add_argument("--site-column", default=0, type=int, help="index of site column, starting from 0 [0]")
+    parser.add_argument("--chain-column", type=int, default=0, help="column containing chain ID, default is None, will use chain A")
+    parser.add_argument("--site-column", default=1, type=int, help="index of site column, starting from 0 [0]")
     parser.add_argument("--zero-override", default=0.0, type=float, help="middle index if data spans negative to positive, default is 0 as the middle color")
     
     args = parser.parse_args(argv)
-
     # read generic format data
     datadict = read_generic_data(args.input_file, args.delimiter, args.data_column, args.site_column, args.chain_column, args.default_chain)
 
     # make PyMOL script with color commands-
-    refchains, refoffsets = get_chains_only(args.default_chain, args.sequence, args.pdb)
-    make_output_script(wayout, datadict, refchains, args.group_name, args.base_color, args.reverse_colors, args.highlight_residue, args.meaningful_zero)
+    # refchains, refoffsets = get_chains_only(args.default_chain, args.sequence, args.pdb)
+    make_output_script(wayout, datadict, args.group_name, args.base_color, args.reverse_colors, args.highlight_residue, args.meaningful_zero)
     
 
 if __name__ == "__main__":
