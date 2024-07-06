@@ -283,6 +283,7 @@ def read_all_scores_and_average(pdb_id, chain):
     return final_sum
 
 def map_sequ_sbna_pdb(sbna, pdb):
+    # maps the sbna sequence to the pdb sequence
     sbna_to_pdb_mapping = []
     # i starts at where the first letter is found (not -) in pdb_aligned
     i = 0
@@ -299,6 +300,7 @@ def map_sequ_sbna_pdb(sbna, pdb):
 
 
 def convert_auth_to_pdb(pdb_id):
+    # get the author chain id to pdb chain id mapping
     response = requests.get(f'''
     https://data.rcsb.org/graphql?query={{entry(entry_id:"{pdb_id}")
     {{polymer_entities {{
@@ -408,15 +410,20 @@ def map_sequ_sbna_pdb(sbna, pdb):
     return sbna_to_pdb_mapping  
 
 def align_finalsum_with_uniprot(final_sum, pdb_id, chain):
+    """
+    final_sum is the output from SBNA, where each row is a residue in the chain (although not always correct)
+    pdb_id is the pdb id
+    chain is the chain id
 
-    # filter final_sum to only include the chain
-    data = get_dbref_data(pdb_id)
-    ranges = [range(i['start'], i['end']+1) for i in data if i['chain'] == chain]
-    r = [item for sublist in ranges for item in sublist] # flatten the list
+    This function aligns the SBNA sequence with the PDB sequence, and then maps the PDB sequence to the UniProt sequence
+    """
+    data = get_dbref_data(pdb_id) # obtain the DBREF lines details from the pdb file
+    ranges = [range(i['start'], i['end']+1) for i in data if i['chain'] == chain] # get the start and end sequence number in the chain
+    r = [item for sublist in ranges for item in sublist] # flatten the list. r is the list of all sequence numbers in the chain
     final_sum = final_sum[final_sum['num'].isin(r)].reset_index(drop=True)
 
-    # get uniprot sequence
-    uniprot_id = get_uniprot_id(pdb_id, chain) # get uniprot id
+    # get uniprot sequence (use a cache to avoid multiple requests for the same uniprot id)
+    uniprot_id = get_uniprot_id(pdb_id, chain)
     with open("../cache/uniprot_seqs.json", "r") as f:
         uniprot_seqs = json.load(f) # saved uniprot sequences
     if uniprot_id in uniprot_seqs:
@@ -427,6 +434,7 @@ def align_finalsum_with_uniprot(final_sum, pdb_id, chain):
         with open("../cache/uniprot_seqs.json", "w") as f:
             json.dump(uniprot_seqs, f) # save uniprot sequences
     
+    # convert author chain id to pdb chain id
     auth_pdb_map = convert_auth_to_pdb(pdb_id) # convert author chain id to pdb chain id
     aligned_regions, target_sequence = get_alignment_regions(uniprot_id, pdb_id, chain, auth_pdb_map)
 
@@ -469,8 +477,6 @@ def align_finalsum_with_uniprot(final_sum, pdb_id, chain):
             pass
 
     sbna_seq = ''.join(final_sum['res_code'].values)
-    # print(sbna_seq)  # pdb sequence (from sbna)
-    # print(target_sequence)  # pdb sequence (aligned to uniprot)
 
     aligner = Align.PairwiseAligner()
     aligner.mode = 'global'
@@ -478,22 +484,7 @@ def align_finalsum_with_uniprot(final_sum, pdb_id, chain):
 
     sbna_aligned, pdb_aligned  = alignments[0][0], alignments[0][1]
 
-    # print("sbna: ", sbna_aligned)
-    # print("pdb : ", pdb_aligned)
     mapped = map_sequ_sbna_pdb(sbna_aligned, pdb_aligned)
-    # print(mapped)
-
-    # percentage match from pdb
-    # threshold = 0.9
-    text = ""
-    if any(final_sum.groupby('num')['res_code'].count() > 1):
-        # sometimes SBNA has multiple residues for the same number (due to other chains/polymer entities)
-        # in that case, reduce threshold to 0.2, and print a warning
-        text = " (Multiple residues for the same number)"
-        
-        # threshold = 0.2
-    # perc_match = sum([1 for i, j in zip(sbna_aligned, pdb_aligned) if i == j])/len(sbna_aligned)
-    # print(f"{pdb_id} | chain {chain} | % match = {perc_match:.3f}{text}")
 
     # align pdb sequence to uniprot seqeunce using aligned regions
     pdb_to_uniprot_mapping = {}
@@ -506,7 +497,6 @@ def align_finalsum_with_uniprot(final_sum, pdb_id, chain):
         # map numbers from pdb to uniprot
         for i in range(pdb_begin, pdb_end+1):
             pdb_to_uniprot_mapping[i] = i - pdb_begin + uniprot_begin
-    # print(pdb_to_uniprot_mapping)
 
     # map sbna sequence to uniprot sequence
     sbna_to_uniprot_mapping = []
