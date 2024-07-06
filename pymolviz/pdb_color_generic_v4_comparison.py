@@ -173,7 +173,6 @@ def create_diverging_palette(data, meaninful_zero=True, num_bins=11, palette="Br
         return colour_maps, binvalues
 
     else: # for example network scores, where 0 does not mean anything
-        sys.stderr.write("NOT MEANINGFUL\n")
         binvalues = np.linspace(min_val, max_val, num_bins+1)
         binvalues = [round(x, 2) for x in binvalues]
         binvalues[0] -= 0.01 # to make sure it includes the lowest value
@@ -211,7 +210,8 @@ def make_output_script(wayout, scoredict, groupname, palette="BrBG", reverse_col
 
     NUM_BINS = 11
     targetcolors, binvalues = create_diverging_palette(all_scores, meaninful_zero=meaninful_zero, num_bins=NUM_BINS, palette=palette)
-    
+    if reverse_colors:
+        targetcolors.reverse()
     # save targetcolors and binvalues to a file
     with open("palette.pkl", "wb") as f:
         pickle.dump((targetcolors, binvalues), f)
@@ -226,8 +226,6 @@ def make_output_script(wayout, scoredict, groupname, palette="BrBG", reverse_col
     alphabets = 'abcdefghijklmnopqrstuvwxyz'
     colour_levels = [x for x in alphabets[:len(binvalues)-1]]
 
-    if reverse_colors:
-        targetcolors.reverse()
     for i,rgb in enumerate(targetcolors):
         # note: had to correct this since bins for -1.5 and -1.0 were being assigned the same color name since it uses int 
         # colorname = "{}{:02d}".format( basecolor, int(binvalues[i]*binname_correction) ) # previous code
@@ -236,7 +234,6 @@ def make_output_script(wayout, scoredict, groupname, palette="BrBG", reverse_col
     if highlight_residue is not None:
         highlight_color = [1.0, 0.0, 0.0]  # You can change this to the desired RGB highlight color
         wayout.write(f"set_color highlight, [{','.join(map(str,highlight_color))}]\n")
-    
     
     # print("\n===================\n")
     # all_scoregroups = {} # for each pdb_chain (key), store the residues in each group (a )
